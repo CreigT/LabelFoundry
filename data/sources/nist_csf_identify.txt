@@ -1,0 +1,34 @@
+NIST Cybersecurity Framework - Identify Function
+
+The Identify Function assists in developing an organizational understanding to manage cybersecurity risk to systems, people, assets, data, and capabilities. It is the foundation for the other functions.
+
+Key Categories and Subcategories:
+
+1. Asset Management (ID.AM)
+- ID.AM-1: Physical devices and systems within the organization are inventoried.
+- ID.AM-2: Software platforms and applications within the organization are inventoried.
+- ID.AM-3: Organizational communication and data flows are mapped.
+- ID.AM-4: External information systems are catalogued.
+- ID.AM-5: Resources are prioritized based on their classification, criticality, and business value.
+
+2. Business Environment (ID.BE)
+- The organization's role in the supply chain is identified and communicated.
+- Critical functions and dependencies are established.
+
+3. Governance (ID.GV)
+- Organizational cybersecurity policy is established.
+- Roles and responsibilities are coordinated and aligned.
+
+4. Risk Assessment (ID.RA)
+- Asset vulnerabilities are identified and documented.
+- Threat and vulnerability information is received from information sharing forums and sources.
+- Threats, both internal and external, are identified and documented.
+- Potential business impacts and likelihoods are identified.
+- Threats, vulnerabilities, likelihoods, and impacts are used to determine risk.
+
+5. Risk Management Strategy (ID.RM)
+- Risk management processes are established, managed, and agreed to by organizational stakeholders.
+- Organizational risk tolerance is determined and clearly expressed.
+- The organization's determination of risk tolerance is informed by its role in critical infrastructure and sector specific risk analysis.
+
+Organizations should maintain an accurate inventory and regularly update risk assessments as new assets or threats appear.

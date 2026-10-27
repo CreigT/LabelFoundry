@@ -1,0 +1,14 @@
+CISA Cybersecurity Advisory Example
+
+Summary: Threat actors are exploiting known vulnerabilities in internet-facing systems to gain initial access. Multiple groups have been observed targeting unpatched VPN appliances, web servers, and remote desktop services.
+
+Technical Details: Attackers use publicly available exploit code against unpatched services. Common entry points include CVE-2023-XXXX series vulnerabilities in edge devices. Once inside, they deploy web shells, create local accounts, and move laterally using legitimate tools.
+
+Mitigations:
+- Apply vendor patches immediately and enable automatic updates where possible.
+- Enable multi-factor authentication on all external-facing services.
+- Monitor for anomalous authentication attempts, unusual process creation, and unexpected outbound connections.
+- Segment networks so that internet-facing systems cannot directly reach internal high-value assets.
+- Review and restrict PowerShell and remote administration tools.
+
+Detection guidance: Look for unexpected child processes under web server or VPN services, new scheduled tasks, and registry modifications that persist malware.

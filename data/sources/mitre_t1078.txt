@@ -1,0 +1,20 @@
+MITRE ATT&CK Technique T1078 - Valid Accounts
+
+Adversaries may obtain and abuse credentials of existing accounts as a means of gaining Initial Access, Persistence, Privilege Escalation, or Defense Evasion.
+
+Compromised credentials may be used to bypass access controls placed on various resources on systems within the network and may even be used for persistent access to remote systems and externally available services, such as VPNs, Outlook Web Access, network devices, and remote desktop services.
+
+Detection:
+- Monitor for authentication events, especially from unusual locations, times, or devices.
+- Look for accounts accessing resources they do not normally use.
+- Detect brute-force or password spraying followed by successful login.
+- Review privileged account usage and alert on anomalous behavior.
+
+Mitigation:
+- Enforce multi-factor authentication for all accounts, especially privileged and remote access.
+- Implement strong password policies and credential hygiene.
+- Use privileged access management and just-in-time access.
+- Monitor and audit account activity continuously.
+- Disable or tightly control default and shared accounts.
+
+Valid accounts are one of the most common techniques used for lateral movement and persistence.

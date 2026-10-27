@@ -1,0 +1,34 @@
+NIST Cybersecurity Framework - Respond Function
+
+The Respond Function supports the ability to contain the impact of a cybersecurity incident. It includes activities to take action regarding a detected cybersecurity event.
+
+Key Categories:
+
+1. Response Planning (RS.RP)
+- Response plan is executed during or after an event.
+- Personnel know their roles and the order of operations when a response is needed.
+
+2. Communications (RS.CO)
+- Personnel know their roles and order of operations when a response is needed.
+- Events are reported consistent with established criteria.
+- Information is shared consistent with response plans.
+- Coordination with stakeholders occurs consistent with response plans.
+- Voluntary information sharing occurs with external stakeholders to achieve broader cybersecurity situational awareness.
+
+3. Analysis (RS.AN)
+- Notifications from detection systems are investigated.
+- The impact of the incident is understood.
+- Forensics are performed.
+- Incidents are categorized consistent with response plans.
+- Processes are established to receive, analyze and respond to vulnerabilities disclosed to the organization from internal and external sources.
+
+4. Mitigation (RS.MI)
+- Incidents are contained.
+- Incidents are mitigated.
+- Newly identified vulnerabilities are mitigated or documented as accepted risks.
+
+5. Improvements (RS.IM)
+- Response plans incorporate lessons learned.
+- Response strategies are updated.
+
+Organizations should maintain and regularly test incident response plans, define clear communication channels, and ensure forensic readiness so that evidence can be collected without destroying it.

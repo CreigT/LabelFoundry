@@ -1,0 +1,21 @@
+NIST Cybersecurity Framework - Recover Function
+
+The Recover Function identifies appropriate activities to maintain plans for resilience and to restore any capabilities or services that were impaired due to a cybersecurity incident.
+
+Key Categories:
+
+1. Recovery Planning (RC.RP)
+- Recovery plan is executed during or after a cybersecurity incident.
+- Recovery plans incorporate lessons learned.
+- Recovery strategies are updated.
+
+2. Improvements (RC.IM)
+- Recovery plans incorporate lessons learned.
+- Recovery strategies are updated.
+
+3. Communications (RC.CO)
+- Public relations are managed.
+- Reputation is repaired after an incident.
+- Recovery activities are communicated to internal and external stakeholders as well as executive and management teams.
+
+Organizations should maintain tested recovery plans, ensure backups are available and restorable, define communication strategies for internal and external stakeholders, and update plans based on lessons learned from exercises and real incidents.

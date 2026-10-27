@@ -1,0 +1,31 @@
+NIST Cybersecurity Framework - Detect Function
+
+The Detect Function defines the appropriate activities to identify the occurrence of a cybersecurity event. It enables timely discovery of cybersecurity events.
+
+Key Categories:
+
+1. Anomalies and Events (DE.AE)
+- A baseline of network operations and expected data flows for users and systems is established and managed.
+- Detected events are analyzed to understand attack targets and methods.
+- Event data are collected and correlated from multiple sources and sensors.
+- Impact of events is determined.
+- Incident alert thresholds are established.
+
+2. Security Continuous Monitoring (DE.CM)
+- The network is monitored to detect potential cybersecurity events.
+- The physical environment is monitored to detect potential cybersecurity events.
+- Personnel activity is monitored to detect potential cybersecurity events.
+- Malicious code is detected.
+- Unauthorized mobile code is detected.
+- External service provider activity is monitored to detect potential cybersecurity events.
+- Monitoring for unauthorized personnel, connections, devices, and software is performed.
+- Vulnerability scans are performed.
+
+3. Detection Processes (DE.DP)
+- Roles and responsibilities for detection are well defined to ensure accountability.
+- Detection activities comply with all applicable requirements.
+- Detection processes are tested.
+- Event detection information is communicated.
+- Detection processes are continuously improved.
+
+Effective detection requires continuous monitoring, correlation of events from multiple sources, and clear escalation criteria so that potential incidents are not missed.

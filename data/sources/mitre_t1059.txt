@@ -1,0 +1,24 @@
+MITRE ATT&CK Technique T1059 - Command and Scripting Interpreter
+
+Adversaries may abuse command and script interpreters to execute commands, scripts, or binaries. These interfaces include PowerShell, Windows Command Shell (cmd.exe), Unix Shell (bash, sh), Python, JavaScript, Visual Basic, and others.
+
+Sub-techniques:
+- T1059.001 PowerShell
+- T1059.003 Windows Command Shell
+- T1059.004 Unix Shell
+- T1059.006 Python
+- T1059.007 JavaScript
+
+Detection:
+- Monitor for unexpected process execution, especially interpreters launched by unusual parents (e.g., winword.exe spawning powershell.exe).
+- Unusual parent-child relationships and script block logging (PowerShell Script Block Logging, Module Logging).
+- Command-line arguments containing encoded commands, download cradles, or suspicious keywords.
+- High volume of interpreter activity from a single host or user.
+
+Mitigation:
+- Restrict scripting languages where possible using application control (AppLocker, WDAC, or similar).
+- Enable PowerShell logging and constrain language mode where feasible.
+- Use least privilege and limit who can run interpreters.
+- Monitor and alert on known malicious script patterns and living-off-the-land binaries.
+
+Adversaries frequently use these interpreters for execution, persistence, and defense evasion because they are present by default on many systems.

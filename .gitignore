@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+*.egg-info/
+
+# Data (keep structure, ignore large generated files if desired)
+data/parsed/
+data/generated/
+data/curated/
+data/final/
+!data/**/.gitkeep
+# data/generated/label_foundry_dataset.jsonl is intentionally committed as a sample despite the ignore above.
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Synthetic Data Kit working files
+data/output/
+
+# Test cache
+.pytest_cache/
+
+# Local release builds (made by prepare_hf_release.py). Not uploaded or committed.
+releases/*
+!releases/README.md
+!releases/CHANGELOG.md

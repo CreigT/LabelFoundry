@@ -1,0 +1,20 @@
+CISA Guidance on Phishing and Social Engineering
+
+Phishing remains one of the most common initial access vectors. Attackers send emails or messages that appear legitimate to trick users into revealing credentials or installing malware.
+
+Common indicators:
+- Urgent language requesting immediate action.
+- Links that do not match the displayed text or lead to unexpected domains.
+- Attachments with macros or unexpected file types.
+- Requests for credentials, MFA codes, or financial information.
+- Spoofed sender addresses that closely resemble trusted organizations.
+
+Recommended defenses:
+- Train users to hover over links and verify sender addresses.
+- Deploy email filtering and attachment sandboxing.
+- Enable multi-factor authentication so stolen passwords alone are insufficient.
+- Implement DMARC, DKIM, and SPF for outbound and inbound email authentication.
+- Establish a clear reporting process for suspicious messages.
+- Use endpoint detection to catch malware that bypasses email filters.
+
+Organizations should assume some phishing emails will reach users and design controls and training accordingly. Report confirmed phishing campaigns to CISA and relevant ISACs.

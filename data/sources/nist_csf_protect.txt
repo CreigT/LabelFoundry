@@ -1,0 +1,56 @@
+NIST Cybersecurity Framework - Protect Function
+
+The Protect Function outlines appropriate safeguards to ensure delivery of critical infrastructure services. It supports the ability to limit or contain the impact of a potential cybersecurity event.
+
+Key Categories:
+
+1. Identity Management, Authentication and Access Control (PR.AC)
+- Identities and credentials are issued, managed, verified, revoked, and audited for authorized devices, users and processes.
+- Physical access to assets is managed and protected.
+- Remote access is managed.
+- Access permissions and authorizations are managed, incorporating the principles of least privilege and separation of duties.
+- Network integrity is protected (e.g., network segregation, network segmentation).
+- Identities are proofed and bound to credentials and asserted in interactions when appropriate.
+
+2. Awareness and Training (PR.AT)
+- All users are informed and trained.
+- Privileged users understand their roles and responsibilities.
+- Third-party stakeholders (e.g., suppliers, customers, partners) understand their roles and responsibilities.
+- Senior executives understand their roles and responsibilities.
+- Physical and cybersecurity personnel understand their roles and responsibilities.
+
+3. Data Security (PR.DS)
+- Data-at-rest is protected.
+- Data-in-transit is protected.
+- Assets are formally managed throughout removal, transfers, and disposition.
+- Adequate capacity to ensure availability is maintained.
+- Protections against data leaks are implemented.
+- Integrity checking mechanisms are used to verify software, firmware, and information integrity.
+- The development and testing environment(s) are separate from the production environment.
+
+4. Information Protection Processes and Procedures (PR.IP)
+- A baseline configuration of information technology/industrial control systems is created and maintained incorporating security principles.
+- A System Development Life Cycle to manage systems is implemented.
+- Configuration change control processes are in place.
+- Backups of information are conducted, maintained, and tested.
+- Policy and regulations regarding the physical operating environment for organizational assets are met.
+- Data is destroyed according to policy.
+- Protection processes are improved.
+- Effectiveness of protection technologies is shared.
+- Response plans (Incident Response and Business Continuity) and recovery plans (Incident Recovery and Disaster Recovery) are in place and managed.
+- Response and recovery plans are tested.
+- Cybersecurity is included in human resources practices (e.g., deprovisioning, personnel screening).
+- A vulnerability management plan is developed and implemented.
+
+5. Maintenance (PR.MA)
+- Maintenance and repair of organizational assets are performed and logged, with approved and controlled tools.
+- Remote maintenance of organizational assets is approved, logged, and performed in a manner that prevents unauthorized access.
+
+6. Protective Technology (PR.PT)
+- Audit/log records are determined, documented, implemented, and reviewed in accordance with policy.
+- Removable media is protected and its use restricted according to policy.
+- The principle of least functionality is incorporated by configuring systems to provide only essential capabilities.
+- Communications and control networks are protected.
+- Mechanisms (e.g., failsafe, load balancing, hot swap) are implemented to achieve resilience requirements in normal and adverse situations.
+
+Organizations should implement layered defenses, enforce least privilege, and regularly validate that protective controls remain effective.
