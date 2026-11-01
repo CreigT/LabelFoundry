@@ -39,3 +39,7 @@ The `data/sources/` folder contains public-domain style example documents only. 
 
 Developed by Terrence Creig  
 Sponsored by CREIGNIFICENT LLC
+
+
+## Relevance to secure systems / edge / defense
+Synthetic cyber data is useful for testing detection and defensive analysis workflows without disclosing real incidents. This is not proof of model robustness.
