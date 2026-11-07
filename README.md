@@ -35,11 +35,35 @@ No implementation details, source code, or configuration files are published her
 ## Example source documents
 The `data/sources/` folder contains public-domain style example documents only. They do not include any proprietary logic.
 
+## SECURE
+
+- Public repository contains no generation code, prompts, quality-gate implementation, or private configuration.
+- Released dataset is gated on Hugging Face; owner approves access manually.
+- Synthetic records are for defensive training and analysis only; they are not real incidents and do not prove model robustness.
+- Source documents are public-domain style examples.
+
+## VERIFY
+
+Verification is evidence of the public boundary, not claims about private quality gates.
+
+- Confirm no generation code or private config exists in this repository.
+- Confirm the Hugging Face dataset remains gated and requires manual approval.
+- Confirm the released set matches the stated count and categories (49 records).
+- Confirm `data/sources/` contains only example documents.
+
+See `docs/VERIFY_WALKTHROUGH.md` for the concrete check.
+
+## DOCUMENT
+
+- This README is the public summary.
+- Full operational card: `docs/OPERATIONAL_CARD.md`
+- Verification walkthrough: `docs/VERIFY_WALKTHROUGH.md`
+- Documentation defines the public trust boundary; generation logic stays private.
+
 ---
 
 Developed by Terrence Creig  
 Sponsored by CREIGNIFICENT LLC
-
 
 ## Relevance to secure systems / edge / defense
 Synthetic cyber data is useful for testing detection and defensive analysis workflows without disclosing real incidents. This is not proof of model robustness.
